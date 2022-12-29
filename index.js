@@ -25,7 +25,7 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       // 倒计时修改这句中的数字，不需要倒计时删除“|#countdown 3|”，换内容修改文字
-      S.UI.simulate('|#countdown 3|祝|石珂棋|新年快乐|2023|心想事成|考试圆满|新的一年暴廋暴富|没有烦恼|#rectangle|');
+      S.UI.simulate('|#countdown 3|祝|石珂棋|新年快乐|2023|心想事成|考试圆满|新的一年|暴富暴廋|没有烦恼|平安喜乐|万事胜意|永远幸福|永远被爱|永远漂亮|永远有爱人陪在身边|#rectangle|');
     }
 
     S.Drawing.loop(function () {
